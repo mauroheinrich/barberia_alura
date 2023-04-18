@@ -48,3 +48,78 @@ ul{
 .imgDiferenciales{
     width: 50%;
 }
+
+
+
+/*Estilos para pantallas pequeñas*/
+/* @media screen and (max-width: 768px) {
+    .tituloprincipal {
+        padding-left: 10px;
+    }
+
+    #banner {
+        height: auto;
+    }
+
+    .principal {
+        padding: 10px;
+    }
+
+    #mision {
+        font-size: 18px;
+    }
+
+    .diferenciales {
+        padding: 10px;
+    }
+
+    ul {
+        display: block;
+        width: 100%;
+        margin: 0;
+        padding: 0;
+    }
+
+    .imgDiferenciales{
+        width: 100%;
+    }
+} */
+/*Estilos para pantallas medianas y grandes*/
+/* @media screen and (min-width: 769px){
+    .tituloprincipal {
+        padding-left: 30px;
+    }
+
+    #banner {
+        height: 500px;
+    }
+
+    .principal {
+        padding: 20px;
+    }
+
+    #mision {
+        font-size: 20px;
+    }
+
+    .diferenciales {
+        padding: 30px;
+    }
+
+    ul {
+        display: inline-block;
+        vertical-align: top;
+        width: 20%;
+        margin-right: 15%;
+    }
+
+    .imgDiferenciales{
+        width: 50%;
+    }
+}
+
+
+
+    
+    
+     */

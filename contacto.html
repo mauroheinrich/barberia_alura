@@ -21,6 +21,40 @@
         </div>
 
     </header>
+    <main>
+        <form>
+            <label for="nombreapellido">Nombre y Apellido</label>
+            <input type="text" id="nombreapellido" class="input-padron">
+
+            <label for="email">Correo Electrónico</label>
+            <input type="text" id="email" class="input-padron">
+
+            <label for="telefono">Teléfono</label>
+            <input type="text" id="telefono" class="input-padron">
+
+            <label for="mensaje">Mensaje</label>
+            <textarea  id="mensaje" cols="70" rows="10" class="input-padron"></textarea>
+
+            <div>
+                <p>¿Como le gustaría que lo contactemos?</p>
+            
+                <label for="radio-email"><input type="radio" name="contacto" value="email" id="radio-email">Email</label>
+                
+    
+                <label for="radio-telefono"><input type="radio" name="contacto" value="telefono" id="radio-telefono">Teléfono</label>
+                
+    
+                <label for="radio-whatsapp"><input type="radio" name="contacto" value="Whatsapp" id="radio-whatsapp">Whatsapp</label>
+                
+                    
+            </div>
+            
+            <label class="checkbox"><input type="checkbox">¿Le gustaría recibir novedades de la BArbería Alura?</label>
+
+            <input type="submit" value="Enviar formulario">
+                   
+        </form>
+    </main>
     <footer>
         <img src="img/logo-blanco.png" alt="logo barberia Alura en blanco">
         <p class="copyright">&copy Copyright Barbería Alura - 2023</p>
