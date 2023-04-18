@@ -35,8 +35,8 @@
             <label for="mensaje">Mensaje</label>
             <textarea  id="mensaje" cols="70" rows="10" class="input-padron"></textarea required>
 
-            <div>
-                <p>¿Como le gustaría que lo contactemos?</p>
+            <fieldset>
+                <legend>¿Como le gustaría que lo contactemos?</legend>
             
                 <label for="radio-email"><input type="radio" name="contacto" value="email" id="radio-email">Email</label>
                 
@@ -47,21 +47,21 @@
                 <label for="radio-whatsapp"><input type="radio" name="contacto" value="Whatsapp" id="radio-whatsapp"checked>Whatsapp</label>
                 
                     
-            </div>
+            </fieldset>
             
-            <div>
-                <p>¿En que horario le gustaría ser atendido?</p>
+            <fieldset>
+                <legend>¿En que horario le gustaría ser atendido?</legend>
                 <select>
                     <option value="">Mañana</option>
                     <option value="">Tarde</option>
                     <option value="">Noche</option>
                 </select>
-            </div>
+            </fieldset>
             
 
             <label class="checkbox"><input type="checkbox"checked>¿Le gustaría recibir novedades de la BArbería Alura?</label>
 
-            <input type="submit" value="Enviar formulario">
+            <input type="submit" value="Enviar formulario" class="enviar">
                    
         </form>
     </main>
