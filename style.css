@@ -261,12 +261,29 @@ td, th{
     nav{
         position: static;
     }
+    nav a {
+        text-transform: uppercase;
+        color: #000000;
+        font-weight: bold;
+        font-size: 18px;
+        text-decoration: none;
+    }
     .caja, .principal, .mapa-contenido, .contenido-diferenciales, .video{
         width: auto;
     }
     .imagen-diferenciales, .imagen-diferenciales{
         width: 100%;
     }
+    .productos {
+        width: 90%;
+    }
+
+    .productos li {
+        width: 90%;
+        margin: 0 -2.5% 1em ;
+        text-align: center;
+    }
+    
 }
 
 /* @media screen and (max-width: 1200px) {
