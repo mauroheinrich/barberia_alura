@@ -271,9 +271,18 @@ td, th{
     .caja, .principal, .mapa-contenido, .contenido-diferenciales, .video{
         width: auto;
     }
-    .imagen-diferenciales, .imagen-diferenciales{
-        width: 100%;
+    .contenido-diferenciales{
+        text-align: center;
     }
+    
+    .principal p{
+        padding: 20px;
+    }
+    .imagen-diferenciales{
+        width: 100%;
+       
+    }
+
     .productos {
         width: 90%;
     }
